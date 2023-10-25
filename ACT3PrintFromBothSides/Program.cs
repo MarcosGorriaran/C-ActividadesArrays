@@ -20,13 +20,24 @@ namespace CSharpArrays
             const int RangeMax = 9;
             const string WordSpliter = " ";
             const string AskValue = "Proporcioname el valor {0}: ";
+            const string ErrorOutsideOfAllowedRange = "El valor proporcionado esta fuera del rango permitido [{0} - {1}]";
 
             int[] providedValues = new int[AmountValues];
 
             for (int i = 0; i < AmountValues; i++)
             {
-                Console.Write(AskValue, i + 1);
-                providedValues[i] = Convert.ToInt32(Console.ReadLine());
+                bool repeated = false;
+                do
+                {
+                    if (repeated)
+                    {
+                        Console.WriteLine(ErrorOutsideOfAllowedRange,RangeMin,RangeMax);
+                    }
+                    repeated = true;
+                    Console.Write(AskValue, i + 1);
+                    providedValues[i] = Convert.ToInt32(Console.ReadLine());
+                } while (providedValues[i]<RangeMin || providedValues[i]>RangeMax);
+                
             }
 
             for (int i = 0; i < AmountValues; i++)
@@ -38,9 +49,6 @@ namespace CSharpArrays
             {
                 Console.Write(providedValues[i]+WordSpliter);
             } 
-            { 
-            
-            }
         }
     }
 }
