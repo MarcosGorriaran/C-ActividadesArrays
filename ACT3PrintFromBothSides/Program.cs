@@ -44,7 +44,7 @@ namespace CSharpArrays
             {
                 Console.Write(providedValues[i]+WordSpliter);
             }
-
+            Console.WriteLine();
             for (int i = AmountValues-1; i >= 0; i--)
             {
                 Console.Write(providedValues[i]+WordSpliter);
