@@ -1,6 +1,6 @@
 ﻿/*
  * Gorriaran Caamaño Marcos Facundo
- * 25/10/2023
+ * 30/10/2023
  * Exercici 7
  * Implementa un programa que reculli els valors dels
  * següents atributs per a 4 personatges:

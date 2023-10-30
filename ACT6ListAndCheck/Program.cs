@@ -1,6 +1,6 @@
 ﻿/*
  * Gorriaran Caamaño Marcos Facundo
- * 25/10/2023
+ * 30/10/2023
  * Exercici 6
  * Implementa un programa que demani a l’usuari quants valors 
  * vol emmagatzemar (en una llista). A continuació l’usuari els 
