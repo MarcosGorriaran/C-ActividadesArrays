@@ -13,7 +13,7 @@ using System;
 
 namespace CSharpArrays
 {
-    class ActivityEighteen
+    class ActivityNineTeen
     {
         public static void Main()
         {
