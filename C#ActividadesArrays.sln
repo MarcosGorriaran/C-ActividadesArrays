@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT1ThreeNumbers", "ACT1ThreeNumbers\ACT1ThreeNumbers.csproj", "{CE38E9FA-E9BA-40E2-99DA-B667537BEF75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACT1ThreeNumbers", "ACT1ThreeNumbers\ACT1ThreeNumbers.csproj", "{CE38E9FA-E9BA-40E2-99DA-B667537BEF75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT2OnlyOddSpaces", "ACT2OnlyOddSpaces\ACT2OnlyOddSpaces.csproj", "{16C214E1-C329-4BC4-9D61-47DD151BC39E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACT2OnlyOddSpaces", "ACT2OnlyOddSpaces\ACT2OnlyOddSpaces.csproj", "{16C214E1-C329-4BC4-9D61-47DD151BC39E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT3PrintFromBothSides", "ACT3PrintFromBothSides\ACT3PrintFromBothSides.csproj", "{F544A777-29AA-41C7-895E-BBBD2ACA6B97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACT3PrintFromBothSides", "ACT3PrintFromBothSides\ACT3PrintFromBothSides.csproj", "{F544A777-29AA-41C7-895E-BBBD2ACA6B97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT4ListAndSum", "ACT4ListAndSum\ACT4ListAndSum.csproj", "{8ECB1D94-C467-41CF-9879-788A7FAA21EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACT4ListAndSum", "ACT4ListAndSum\ACT4ListAndSum.csproj", "{8ECB1D94-C467-41CF-9879-788A7FAA21EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT5InverseInput", "ACT5InverseInput\ACT5InverseInput.csproj", "{736B6451-BD7B-44BA-BD0F-1F5E7FA80B87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACT5InverseInput", "ACT5InverseInput\ACT5InverseInput.csproj", "{736B6451-BD7B-44BA-BD0F-1F5E7FA80B87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT6ListAndCheck", "ACT6ListAndCheck\ACT6ListAndCheck.csproj", "{641FC557-58A2-48FA-B457-712BEC70E56D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACT6ListAndCheck", "ACT6ListAndCheck\ACT6ListAndCheck.csproj", "{641FC557-58A2-48FA-B457-712BEC70E56D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT7CharAtributes", "ACT7CharAtributes\ACT7CharAtributes.csproj", "{064E73E1-9EF6-4299-B478-6886C9CD4641}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{641FC557-58A2-48FA-B457-712BEC70E56D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{641FC557-58A2-48FA-B457-712BEC70E56D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{641FC557-58A2-48FA-B457-712BEC70E56D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{064E73E1-9EF6-4299-B478-6886C9CD4641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{064E73E1-9EF6-4299-B478-6886C9CD4641}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{064E73E1-9EF6-4299-B478-6886C9CD4641}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{064E73E1-9EF6-4299-B478-6886C9CD4641}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
