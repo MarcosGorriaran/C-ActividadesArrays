@@ -15,7 +15,27 @@ namespace CSharpArrays
     {
         public static void Main()
         {
-            
+            const string AskText = "Proporcioname texto: ";
+
+            string textOne;
+            string textTwo;
+
+            Console.Write(AskText);
+            textOne = Console.ReadLine();
+
+            Console.Write(AskText);
+            textTwo = Console.ReadLine();
+
+            textOne += textTwo;
+
+            Console.Write(textOne);
+
+            /**
+             * El programa no tiene problemas haciendolo correr y ahora
+             * textOne contiene un string con los input juntos de textOne
+             * y textTwo mientras que textTwo mantiene el valor introducido
+             * desde el principio.
+             */
         }
     }
 }
