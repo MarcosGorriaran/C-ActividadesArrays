@@ -1,6 +1,6 @@
 ﻿/*
  * Gorriaran Caamaño Marcos Facundo
- * 25/10/2023
+ * 4/11/2023
  * Exercici 15
  * Implementa un programa que emmagatzemi una frase introduïda per teclat 
  * en la variable textOne. Demana un altre text i emmagatzema’l en la 

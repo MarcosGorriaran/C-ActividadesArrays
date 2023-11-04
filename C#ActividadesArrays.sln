@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT14Interpolacion", "ACT14
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT15ToyingWithStrings", "ACT15ToyingWithStrings\ACT15ToyingWithStrings.csproj", "{51A77109-FEB4-46E3-870D-2D07AA8F07C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT16GetStringLength", "ACT16GetStringLength\ACT16GetStringLength.csproj", "{26D22C04-AD97-4DC8-85EA-EB47478A1F46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{51A77109-FEB4-46E3-870D-2D07AA8F07C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51A77109-FEB4-46E3-870D-2D07AA8F07C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51A77109-FEB4-46E3-870D-2D07AA8F07C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26D22C04-AD97-4DC8-85EA-EB47478A1F46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26D22C04-AD97-4DC8-85EA-EB47478A1F46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26D22C04-AD97-4DC8-85EA-EB47478A1F46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26D22C04-AD97-4DC8-85EA-EB47478A1F46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
