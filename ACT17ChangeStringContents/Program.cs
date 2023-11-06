@@ -26,14 +26,13 @@ namespace CSharpArrays
             Console.WriteLine(userText.ToUpper());
             Console.WriteLine(userText.ToLower());
             userTextChar = userText.ToCharArray();
-            userText = "";
-            for(int i = 0; i < userTextChar.Length-1; i++)
+            for(int i = 1; i < userTextChar.Length-1; i++)
             {
                 if (userTextChar[i].Equals(SpaceSearchTarget))
                 {
                      userTextChar[i+1] = Convert.ToChar(Convert.ToString(userTextChar[i+1]).ToUpper());
                 }
-                userText += userTextChar[i];
+                userText = i == 0 ? Convert.ToString(userTextChar[0]).ToUpper() : userText + userTextChar[i];
             }
             userText += userTextChar[userTextChar.Length - 1];
             Console.WriteLine(userText);
