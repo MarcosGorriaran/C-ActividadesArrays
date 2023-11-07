@@ -25,11 +25,15 @@ namespace CSharpArrays
             splitedLastPortion = splitedText[splitedText.Length - 1].Split(SplitSecondTarget);
             allSplited = new string[splitedText.Length + splitedLastPortion.Length];
 
-            for (int i = 0; i < allSplited.Length; i++)
+            for (int i = 0; i < splitedText.Length; i++)
             {
-                allSplited[i] = i < splitedText.Length ? splitedText[i] : splitedLastPortion[i - splitedText.Length];
-                Console.WriteLine(allSplited[i].Trim().ToUpper()[0]);
+                Console.Write(splitedText[i].Trim().ToUpper()[0]);
             }
+            if(splitedText[splitedText.Length - 1].Split(SplitSecondTarget).Length>1)
+            {
+                Console.WriteLine(splitedText[splitedText.Length - 1].Split(SplitSecondTarget)[1].Trim().ToUpper()[0]);
+            }
+            
         }
     }
 }
