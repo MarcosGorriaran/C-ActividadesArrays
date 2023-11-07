@@ -13,19 +13,47 @@ using System;
 
 namespace CSharpArrays
 {
-    class ActivityEighteen
+    class ActivityTwenty
     {
         public static void Main()
         {
-            const int row = 7;
-            const int col = 3;
+            const int MinRange = 1;
+            const int MaxRange = 9;
+            const int Row = 7;
+            const int Col = 3;
             const string AskValue = "Dame el valor {0} {1}: ";
 
-            int[,] Ask = new int[row,col];
+            int[,] ask = new int[Row,Col];
 
-            for(int i = 0; i < Ask.GetLength(0); i++)
+            for (int i = 0; i < ask.GetLength(0); i++)
             {
-                for(int j = 0; j < Ask.GetLength(1); j++)
+                for (int j = 0; j < ask.GetLength(1); j++)
+                {
+                    do
+                    {
+                        Console.Write(AskValue, i + 1, j + 1);
+                        ask[i, j] = Convert.ToInt32(Console.ReadLine());
+                    } while (ask[i, j]<MinRange || ask[i, j]>MaxRange);
+                    
+                }
+            }
+
+            for (int i = 0; i < ask.GetLength(0); i++)
+            {
+                for(int j = 0; j < ask.GetLength(1); j++)
+                {
+                    Console.Write(ask[i, j]);
+                }
+                Console.WriteLine();
+            }
+            Console.WriteLine();
+            for(int i = 0;i < ask.GetLength(1); i++)
+            {
+                for (int j = 0;j < ask.GetLength(0); j++)
+                {
+                    Console.Write(ask[j, i]);
+                }
+                Console.WriteLine();
             }
         }
     }
