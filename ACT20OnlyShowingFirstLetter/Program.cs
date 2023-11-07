@@ -1,6 +1,6 @@
 ﻿/*
  * Gorriaran Caamaño Marcos Facundo
- * 4/11/2023
+ * 7/11/2023
  * Exercici 20
  */
 using System;

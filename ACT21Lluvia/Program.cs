@@ -1,6 +1,6 @@
 ﻿/*
  * Gorriaran Caamaño Marcos Facundo
- * 4/11/2023
+ * 7/11/2023
  * Exercici 21
  * El següent tipus de dades emmagatzema les quantitats mitjanes de 
  * pluja per cada mes de l’any:

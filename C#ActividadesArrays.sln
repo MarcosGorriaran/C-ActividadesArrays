@@ -39,6 +39,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACT20OnlyShowingFirstLetter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT21Lluvia", "ACT21Lluvia\ACT21Lluvia.csproj", "{E5223686-E83D-4A49-A173-46D2D4F340B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT10BubleSort", "ACT10BubleSort\ACT10BubleSort.csproj", "{02F83424-F2FA-46BC-A69C-113BBDD3C8C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT11BubleSortAndSearch", "ACT11BubleSortAndSearch\ACT11BubleSortAndSearch.csproj", "{71FDD16D-F210-407B-A7D4-FEB2704020E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +121,14 @@ Global
 		{E5223686-E83D-4A49-A173-46D2D4F340B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5223686-E83D-4A49-A173-46D2D4F340B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5223686-E83D-4A49-A173-46D2D4F340B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02F83424-F2FA-46BC-A69C-113BBDD3C8C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02F83424-F2FA-46BC-A69C-113BBDD3C8C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02F83424-F2FA-46BC-A69C-113BBDD3C8C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02F83424-F2FA-46BC-A69C-113BBDD3C8C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71FDD16D-F210-407B-A7D4-FEB2704020E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71FDD16D-F210-407B-A7D4-FEB2704020E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71FDD16D-F210-407B-A7D4-FEB2704020E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71FDD16D-F210-407B-A7D4-FEB2704020E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
